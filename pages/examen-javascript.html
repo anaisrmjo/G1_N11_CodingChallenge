@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="description" content="<js, coding, challenge>
+  <meta name="author" lang="fr" content="Anaïs Ramananjo et Kiara Jules-Rosette">
+  <title>Coding Challenge</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<nav class="col-12 menu">
+  <div>
+    <a href="../index.html">
+    <img src="../img/logo.png" class="logo">
+    </a></div>
+    <div class="liens">
+      <ul>
+        <li><a href="pages/login.html">Login</a></li>
+        <li><a href="pages/signup.html">Sign up</a></li>
+        <li><a href="pages/offer.html">Offer</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
+</nav>
+
+<section>
+    <p>
+        <input type="number" id="input1" placeholder="Enter Value"> / 
+            <input type="number" id="input2" placeholder="Enter Value"> =
+            <span id="result1"></b></span>
+            <br>
+           <button onclick="Division()">Submit</button>  
+    </p>
+
+    <p>
+        <b><span id="result2"></span></b><br>
+       <button onclick="plusZero()">0</button>
+        <button onclick="plusOne()">1</button>
+        <button onclick="plusTwo()">2</button>
+        <button onclick="plusThree()">3</button>
+        <button onclick="plusFour()">4</button>
+        <button onclick="plusFive()">5</button>
+        <button onclick="plusSix()">6</button>
+
+        <button onclick="div()">/</button>
+        <button onclick="add()">+</button>
+
+        <button onclick="addFive()">+5</button>
+
+        <button onclick="divFour()">/4</button>
+
+        <button onclick="DivMulSous()">/10*2-20</button>
+
+        <button onclick="reset()">Reset</button>
+
+        <p>
+                <input type="text" id="input3" placeholder="Entrer mots"> 
+                <button onclick="iterateWords()">Ajouter</button>
+                <button onclick="resetWords()">Suppression</button>
+                <br>Résultat : <b><span id="result3"></span></b><br>
+        </p>
+
+        <p>
+                Résolution de l'écran :<span id="taille"></span><br>
+                Division :<span id="divTwo"></span><br>
+        </p>
+
+
+<div class="couleurRandom">
+</div>
+
+</section>
+
+<footer>
+    <div class="container">  
+      <div class="footer">
+        <div class="row">
+          <div class="col-lg-6 col-sm-5 footer-description">
+            <h3>Coding Challenge</h3>
+            <p>Coucou tout le monde !</p>
+          </div>
+  
+          <div class="footer-liens">
+          <ul class="col-lg-4">
+            <h4>Catégories</h4>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="pages/login.html">Login</a></li>
+            <li><a href="pages/signup.html">Signup</a></li>
+            <li><a href="pages/offer.html">Offer</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 footer-contact">
+          <h4>Contact</h4>
+          <p>1 Rue de la rose <br>
+            75000 Paris <br>
+            France <br>
+            0101010101 <br>
+          <div class="reseaux-sociaux">
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+            <li><a href="http://www.u-pem.fr/">UPEM</a></li></ul>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+</body>
+
+<script src="../js/js.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
